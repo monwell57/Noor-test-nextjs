@@ -56,7 +56,7 @@ export default function Home({ posts }: Props) {
                     />
                   </div>
                   <p className="py-2 px-4 text-base">
-                    Hi
+                    Hi you
                     {post.description.substring(0, 60)}... by -{" "}
                     <span className="font-semibold">{post.author.name} </span>
                   </p>
